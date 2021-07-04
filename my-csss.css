@@ -11,7 +11,11 @@ body{
     display: flex;
     padding-left: 50px;
     padding-right: 20px;
-    background-image: url(images/BG-2.png);
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    margin: -10px;
+    
+    
 }
 .top-part img{
     width: 100%;
@@ -31,3 +35,18 @@ body{
     border-radius: 15px;
     box-shadow: 0 3px 5px #212034;
 }
+
+.container{
+    position: fixed;left: 50px;top: 20px;
+    display: inline-block;
+    cursor: pointer;
+    
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #212034;
+    margin: 5px 0;
+
+  }

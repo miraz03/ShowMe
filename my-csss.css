@@ -2,21 +2,32 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .welcome{
-    font-size: 50px;
+    font-size: 40px;
     text-align: left;
     width: 50%;
     color: #212034;
 }
 .top-part{
     display: flex;
-    padding-left: 150px;
+    padding-left: 50px;
     padding-right: 20px;
     background-image: url(images/BG-2.png);
 }
 .top-part img{
-    width: 80%;
+    width: 100%;
 }
 .separation{
-    color: red;
+    color: rgb(253, 70, 49);
     font-size: 100px;
+}
+#details{
+    font-weight: lighter;
+    font-size: x-large;
+
+}
+#bgstreet{
+    border: solid 2px rgb(253, 70, 49);
+    padding-left: 10px;padding-right: 10px;
+    border-radius: 15px;
+    box-shadow: 0 3px 5px #212034;
 }

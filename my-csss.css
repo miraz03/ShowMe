@@ -30,7 +30,7 @@ body{
 
 }
 #bgstreet{
-    border: solid 2px rgb(253, 70, 49);
+    border: solid 2px #fd4631;
     padding-left: 10px;padding-right: 10px;
     border-radius: 15px;
     box-shadow: 0 3px 5px #212034;
@@ -50,3 +50,18 @@ body{
     margin: 5px 0;
 
   }
+.middle-part{
+    display: flex;
+    background-image: url(images/bg1.png);
+    background-repeat: no-repeat;
+    margin-top: -20px;
+}
+.gallery{
+    width: 50%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.gallery img{
+    width: 50%;
+    
+}

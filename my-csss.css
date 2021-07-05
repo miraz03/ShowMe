@@ -62,8 +62,11 @@ section{
 .gallery{
     display: flex;
     max-width: 100%;
-    padding-inline-start: 200px;
-    scroll-padding-inline-end: 200px;
+
+
+
+    /* padding-inline-start: 200px;
+    scroll-padding-inline-end: 200px; */
 
 
 }
@@ -71,14 +74,12 @@ section{
     width: 80%;
     box-sizing: border-box;
     box-shadow: 0 4px 5px #212034;
+    margin: 0 10px 0 10px;
 
 }
 #mywork{
     text-align: center;
     font-size: 50px;
-    border: solid 2px #fd4631;
-    padding-left: 10px;padding-right: 10px;
-    border-radius: 15px;
-    box-shadow: 0 3px 5px #212034;
-    color: #212034;
+    background-color: #fd4631;
+    color: ivory;
 }
